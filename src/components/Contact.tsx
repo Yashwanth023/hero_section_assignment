@@ -32,7 +32,7 @@ const Contact = () => {
     <section id="contact" className="py-20 px-6 relative">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <span className="inline-block py-1 px-3 text-xs rounded-full bg-light/10 text-light/80 mb-3">
+          <span className="inline-block py-1 px-3 text-xs rounded-full bg-light/10 text-light/80 mb-3 border border-white/10 shadow-lg shadow-white/5">
             Get in Touch
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-light mb-4">
@@ -45,7 +45,7 @@ const Contact = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact form */}
-          <div className="glass-card rounded-xl p-6 md:p-8">
+          <div className="glass-card rounded-xl p-6 md:p-8 shadow-xl shadow-white/5 border border-white/10">
             {isSubmitted ? (
               <div className="h-full flex flex-col items-center justify-center text-center py-10">
                 <div className="mb-4 text-light/90">
@@ -75,7 +75,7 @@ const Contact = () => {
                     value={formState.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg bg-dark-200 border border-light/10 text-light focus:border-light/30 focus:outline-none transition-colors"
+                    className="w-full px-4 py-3 rounded-lg bg-dark-200 border border-white/10 text-light focus:border-white/30 focus:outline-none transition-colors shadow-inner shadow-white/5"
                     placeholder="Your name"
                   />
                 </div>
@@ -91,7 +91,7 @@ const Contact = () => {
                     value={formState.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg bg-dark-200 border border-light/10 text-light focus:border-light/30 focus:outline-none transition-colors"
+                    className="w-full px-4 py-3 rounded-lg bg-dark-200 border border-white/10 text-light focus:border-white/30 focus:outline-none transition-colors shadow-inner shadow-white/5"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -107,14 +107,14 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="w-full px-4 py-3 rounded-lg bg-dark-200 border border-light/10 text-light focus:border-light/30 focus:outline-none transition-colors resize-none"
+                    className="w-full px-4 py-3 rounded-lg bg-dark-200 border border-white/10 text-light focus:border-white/30 focus:outline-none transition-colors resize-none shadow-inner shadow-white/5"
                     placeholder="Tell us about your project..."
                   ></textarea>
                 </div>
                 
                 <button
                   type="submit"
-                  className="glass-card-hover px-6 py-3 rounded-lg text-light font-medium w-full flex items-center justify-center gap-2 group"
+                  className="glass-card-hover px-6 py-3 rounded-lg text-light font-medium w-full flex items-center justify-center gap-2 group border border-white/10 shadow-lg shadow-white/5 hover:shadow-white/10 transition-all"
                 >
                   Send Message
                   <ArrowRight size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
@@ -137,7 +137,7 @@ const Contact = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 rounded-lg bg-light/10">
+                  <div className="p-3 rounded-lg bg-light/10 border border-white/10 shadow-md shadow-white/5">
                     <Mail size={20} className="text-light" />
                   </div>
                   <div className="text-left">
@@ -149,7 +149,7 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <div className="p-3 rounded-lg bg-light/10">
+                  <div className="p-3 rounded-lg bg-light/10 border border-white/10 shadow-md shadow-white/5">
                     <Phone size={20} className="text-light" />
                   </div>
                   <div className="text-left">
@@ -161,7 +161,7 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <div className="p-3 rounded-lg bg-light/10">
+                  <div className="p-3 rounded-lg bg-light/10 border border-white/10 shadow-md shadow-white/5">
                     <MapPin size={20} className="text-light" />
                   </div>
                   <div className="text-left">
@@ -175,7 +175,7 @@ const Contact = () => {
               </div>
             </div>
             
-            <div className="mt-10 glass-card p-6 rounded-xl text-left">
+            <div className="mt-10 glass-card p-6 rounded-xl text-left border border-white/10 shadow-lg shadow-white/5">
               <h4 className="font-semibold text-light mb-3">Office Hours</h4>
               <p className="text-light/70">
                 Monday - Friday: 9AM - 6PM (IST)<br />
