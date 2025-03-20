@@ -142,8 +142,8 @@ const Contact = () => {
                   </div>
                   <div className="text-left">
                     <h4 className="font-semibold text-light mb-1">Email</h4>
-                    <a href="mailto:hello@precision.design" className="text-light/70 hover:text-light transition-colors">
-                      hello@precision.design
+                    <a href="mailto:yashwanth@gmail.com" className="text-light/70 hover:text-light transition-colors">
+                      yashwanth@gmail.com
                     </a>
                   </div>
                 </div>
@@ -154,8 +154,8 @@ const Contact = () => {
                   </div>
                   <div className="text-left">
                     <h4 className="font-semibold text-light mb-1">Phone</h4>
-                    <a href="tel:+18001234567" className="text-light/70 hover:text-light transition-colors">
-                      +1 (800) 123-4567
+                    <a href="tel:+919009009009" className="text-light/70 hover:text-light transition-colors">
+                      +91 9009009009
                     </a>
                   </div>
                 </div>
@@ -167,8 +167,8 @@ const Contact = () => {
                   <div className="text-left">
                     <h4 className="font-semibold text-light mb-1">Location</h4>
                     <p className="text-light/70">
-                      San Francisco, CA<br />
-                      United States
+                      Bangalore, Karnataka<br />
+                      India
                     </p>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ const Contact = () => {
             <div className="mt-10 glass-card p-6 rounded-xl text-left">
               <h4 className="font-semibold text-light mb-3">Office Hours</h4>
               <p className="text-light/70">
-                Monday - Friday: 9AM - 6PM (PST)<br />
+                Monday - Friday: 9AM - 6PM (IST)<br />
                 Saturday - Sunday: Closed
               </p>
             </div>
