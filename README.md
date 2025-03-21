@@ -1,69 +1,61 @@
-# Welcome to your Lovable project
+# Hero Section Assignment
 
-## Project info
+## Live Deployment
+https://hero-section-assignment.vercel.app/
 
-**URL**: https://lovable.dev/projects/e82f16a2-a561-450f-9041-810f8dcd3abb
+## Repository
+[GitHub Repository](https://github.com/Yashwanth023/hero_section_assignment/)
 
-## How can I edit this code?
+## Project Overview
+This project is a minimal homepage featuring a hero section with a headline, subheading, and a call-to-action (CTA). It also includes a brief services/features section. The design is fully responsive across desktops, tablets, and mobile devices. An interactive modal is implemented as part of the user experience.
 
-There are several ways of editing your application.
+## Features
+- **Hero Section**: Includes a headline, subheading, and a CTA button.
+- **Services/Features Section**: Briefly outlines the offerings.
+- **Responsive Design**: Optimized for different screen sizes.
+- **Interactive Element**: A modal component for user engagement.
+- **Deployment**: Hosted using Vercel/Netlify for easy accessibility.
 
-**Use Lovable**
+## Architecture Overview
+### Frontend:
+- Built using **React.js** with functional components and hooks.
+- Styled using **CSS/Tailwind** for modern and responsive UI.
+- Implemented **React State Management** for modal interactions.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e82f16a2-a561-450f-9041-810f8dcd3abb) and start prompting.
+### Deployment:
+- Hosted on **Vercel** for seamless CI/CD integration.
+- Public repository maintained on GitHub for version control.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Yashwanth023/hero_section_assignment.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd hero_section_assignment
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the development server:
+   ```sh
+   npm start
+   ```
+5. Open `http://localhost:3000` in your browser.
 
-**Use your preferred IDE**
+## Scalability Plan
+- **Component Reusability**: Modular structure allows easy feature expansion.
+- **Performance Optimization**: Uses lazy loading for components.
+- **Future Enhancements**:
+  - API integration for dynamic content.
+  - Backend implementation for authentication and data storage.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Bonus Enhancements
+- Added basic **unit tests** using Jest.
+- **CI/CD** configured with GitHub Actions for automated deployments.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Contributing
+If you'd like to contribute, feel free to fork the repository and submit a pull request.
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e82f16a2-a561-450f-9041-810f8dcd3abb) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
